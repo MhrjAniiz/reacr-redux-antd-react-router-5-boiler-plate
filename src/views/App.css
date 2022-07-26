@@ -1,0 +1,26 @@
+.app__container {
+  height: 100vh;
+}
+
+.page__container {
+  height: calc(100vh - 23vh - 34px);
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url("../Assets/images/15e0ace3f78e32e483289612e21b388c");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow-y: scroll;
+}
+
+.page__contents {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.content__container {
+  padding: 15px;
+}
